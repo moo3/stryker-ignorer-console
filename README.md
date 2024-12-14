@@ -1,7 +1,7 @@
 # stryker-ignorer-console
 Use this ignorer plugin for use with @stryker-mutator to ignore console.* statements
 
-stryker.conf.json example:
+## stryker.conf.json example:
 
 To ignore standard console statements such as `console.log`, `console.warn`, `console.debug`, and `console.error`, use:
 ```

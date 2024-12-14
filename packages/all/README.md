@@ -12,12 +12,13 @@ npm install --save-dev @stryker-ignorer/console-all
 
 Add the plugin to your Stryker configuration:
 
-```json
+
+## stryker.conf.json example:
+
+```
 {
-  "plugins": [
-    "@stryker-mutator/javascript",
-    "@stryker-ignorer/console-all"
-  ]
+    "ignorers": ["console-all"],
+    "plugins": ["@stryker-mutator/*", "@stryker-ignorer/console-all"]
 }
 ```
 
