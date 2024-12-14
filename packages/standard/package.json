@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moorthyv/stryker-ignorer-console"
+    "url": "https://github.com/moo3/stryker-ignorer-console"
   },
   "keywords": [
     "stryker",
