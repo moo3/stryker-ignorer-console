@@ -1,6 +1,6 @@
 {
   "name": "@stryker-ignorer/console-standard",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Ignore the standard console statements (log|warn|debug|error) from mutation testing.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
