@@ -1,0 +1,24 @@
+{
+  "name": "@stryker-ignorer/console",
+  "version": "0.0.1",
+  "description": "Stryker plugins to ignore console statements during mutation testing",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "test": "lerna run test"
+  },
+  "keywords": [],
+  "author": "Moorthy",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^8.1.2",
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.11",
+    "ts-jest": "^29.1.1"
+  }
+}

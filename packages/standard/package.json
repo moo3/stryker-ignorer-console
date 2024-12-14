@@ -1,0 +1,42 @@
+{
+  "name": "@stryker-ignorer/console-standard",
+  "version": "0.1.0",
+  "description": "Ignore the standard console statements (log|warn|debug|error) from mutation testing.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "dev": "tsc --watch",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "prebuild": "npm run clean"
+  },
+  "author": "Moorthy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moorthyv/stryker-ignorer-console"
+  },
+  "keywords": [
+    "stryker",
+    "stryker-plugin",
+    "mutation-testing",
+    "console",
+    "ignore"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@stryker-mutator/api": "^8.7.1"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}
