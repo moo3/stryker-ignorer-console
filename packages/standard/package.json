@@ -12,7 +12,7 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "prebuild": "npm run clean"
   },
-  "author": "Moorthy",
+  "author": "Moorthy Venkatraman",
   "license": "MIT",
   "repository": {
     "type": "git",
