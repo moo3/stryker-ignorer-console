@@ -1,6 +1,6 @@
 {
   "name": "@stryker-ignorer/console-all",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Ignore all console statements from mutation testing.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
