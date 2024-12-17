@@ -15,7 +15,7 @@ import { PluginKind, declareValuePlugin } from '@stryker-mutator/api/plugin';
  *   "plugins": ["@stryker-mutator/*", "@stryker-ignorer/console-standard"]
  * }
  */
-export const ignoreConsoleStandard = [declareValuePlugin(PluginKind.Ignore, 'console-standard', {
+export const strykerPlugins = [declareValuePlugin(PluginKind.Ignore, 'console-standard', {
   /**
    * Determines whether a given AST path should be ignored during mutation testing.
    * Only ignores the standard console methods: log, debug, warn, and error.

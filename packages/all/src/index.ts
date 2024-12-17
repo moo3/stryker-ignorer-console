@@ -12,7 +12,7 @@ import { PluginKind, declareValuePlugin } from '@stryker-mutator/api/plugin';
  *   "plugins": ["@stryker-mutator/*", "@stryker-ignorer/console-all"]
  * }
  */
-export const ignoreConsoleAll = [declareValuePlugin(PluginKind.Ignore, 'console-all', {
+export const strykerPlugins = [declareValuePlugin(PluginKind.Ignore, 'console-all', {
   /**
    * Determines whether a given AST path should be ignored during mutation testing.
    * 

@@ -1,7 +1,7 @@
-import { ignoreConsoleAll } from './index.js';
+import { strykerPlugins } from './index.js';
 
 describe('@stryker-ignorer/console-all', () => {
-  const plugin = ignoreConsoleAll[0].value;
+  const plugin = strykerPlugins[0].value;
 
   describe('shouldIgnore', () => {
     it('should ignore all console statements', () => {
