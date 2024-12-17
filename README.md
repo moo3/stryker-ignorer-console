@@ -11,7 +11,6 @@ To ignore standard console statements such as `console.log`, `console.warn`, `co
 }
 ```
 
-```
 To ignore all console statements, use:
 ```
 {

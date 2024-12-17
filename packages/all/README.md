@@ -24,6 +24,8 @@ Add the plugin to your Stryker configuration:
 
 This will ignore mutations on all console statements during mutation testing.
 
+Learn more about Stryker at https://stryker-mutator.io
+
 ## License
 
 MIT

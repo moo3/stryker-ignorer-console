@@ -21,6 +21,8 @@ Add the plugin to your Stryker configuration:
 
 This will ignore mutations on standard console statements (console.log, console.warn, console.debug, console.error) during mutation testing.
 
+Learn more about Stryker at https://stryker-mutator.io
+
 ## License
 
 MIT
